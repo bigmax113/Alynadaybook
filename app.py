@@ -31,7 +31,7 @@ app.config["MAX_CONTENT_LENGTH"] = 512 * 1024 * 1024  # 512MB на всякий 
 # Ключи/модель как в примере: логика и движок не меняются
 XAI_API_KEY = os.environ.get("XAI_API_KEY")
 API_URL = "https://api.x.ai/v1/chat/completions"
-MODEL = "grok-4-fast-reasoning-latest"
+MODEL = "grok-4-1-fast-reasoning-latest"
 OUTPUT_TOKENS = 10000
 
 # Чанкование кэша (как в примере: ~1900к символов на запрос)
